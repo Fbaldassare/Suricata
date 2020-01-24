@@ -1,0 +1,72 @@
+h1, h2, h3, h4, h5, h6, p, a, li{
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+h1{
+    color: #707070;
+}
+
+.list-group-item:first-child{
+    border-top: 1px solid #DDDDDD !important;
+}
+
+.navbar__color{
+    background-color:#E83E8C !important;
+}
+
+/* Navbar */
+.navbar-brand img{
+    max-width: 100px;
+    text-align: center;
+}
+
+#formas__pago{
+    width: 100%;
+    height: auto;
+    background-color: #17A2B8;
+    color: white;
+}
+
+/* fontawesome */
+.fab{
+    font-size: 3rem;
+    
+}
+/* footer */
+footer{
+    width: 100%;
+    height: auto;
+    background-color:#E83E8C
+}
+
+footer img{
+    height: 80px;
+}
+
+footer p{
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+/* Mis media Query */
+@media (max-width: 575.98px) { 
+    #formas__pago{
+        display: none;
+    }
+
+ }
+
+@media (min-width: 576px){
+ }
+
+@media (min-width: 768px) {
+
+ }
+
+@media (min-width: 992px){
+
+ }
+
+@media (min-width: 1200px) { 
+
+}
